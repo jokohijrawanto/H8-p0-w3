@@ -10,7 +10,7 @@ function palindrome(kata) {
     }
 }
 
-  // TEST CASES
+            // TEST CASES
   console.log(palindrome('katak')); // true
   console.log(palindrome('blanket')); // false
   console.log(palindrome('civic')); // true
