@@ -5,7 +5,7 @@ var input = [
     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"],
 ]
 
-function dataInput(arr) {
+function dataHandling(arr) {
     for(var i = 0; i < arr.length; i++){
         for(var j = 0; j < arr[i].length; j++){
             if (j == 0) {
@@ -23,4 +23,4 @@ function dataInput(arr) {
         }
     }
 }
-dataInput(input);
+dataHandling(input);
