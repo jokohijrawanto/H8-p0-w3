@@ -2,8 +2,9 @@ function cariMean(arr) {
     var temp = 0;
     for(var i = 0; i < arr.length; i++){
         temp += arr[i];
-    }
+        // console.log(temp)  //menampilkan looping +=arr[i] 
     
+    }    // console.log(arr)
     return Math.round(temp / arr.length)
 }
 

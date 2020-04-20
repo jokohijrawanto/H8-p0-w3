@@ -3,7 +3,24 @@
 
 function getUnique(votes) {
     // your code here
+    var result = []
+    for(i=0;i < votes.length;i++){
+        var check=false
+        //  console.log(votes[i])
+        for(var j=0;j<result.length;j++){
+            if(result[j] === votes[i]){
+                check=true
+            }            
+        }
+        
+        // console.log(check)
+        if(check === false){
+            result.push(votes[i])
+        }
 
+
+    }
+    return result
 }
 
 var femaleArtists = [

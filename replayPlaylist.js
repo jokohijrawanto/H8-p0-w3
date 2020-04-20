@@ -44,7 +44,7 @@ function replayPlaylist(minutes) {
   }
 }
 
-console.log(replayPlaylist(27));
+console.log(replayPlaylist(10));
   /**
 [
   'No Time To Die',
@@ -58,18 +58,5 @@ console.log(replayPlaylist(27));
   'Stupid Love'
 ]
 
-    for (var i = 0; i < tamp.length; i++) {
-      if (i=0) {
-        lagu = tamp[i];
-      } else {
-         menit = tamp[i];
-      }
-    }
-    temp.push(lagu)
-    totmenit = totmenit + menit;
-    if (totmenit = minutes) {
-        break;
-
-    }
 
  */

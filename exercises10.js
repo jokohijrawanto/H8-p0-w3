@@ -1,15 +1,29 @@
+// function perkalianUnik(arr) {
+//     var temp = [];
+//     for(var i = 0; i < arr.length; i++){
+//         var test = [1];
+//         for(var j = 0; j < arr.length; j++){
+//             if (arr[i] !== arr[j]) {
+//                 test = test * arr[j]
+//             }
+            
+//         }
+//         // console.log(test)
+//         temp.push(test)
+//     }
+//     return temp
+// }
 function perkalianUnik(arr) {
-    var temp = [];
-    for(var i = 0; i < arr.length; i++){
-        var test = 1;
-        for(var j = 0; j < arr.length; j++){
-            if (arr[i] != arr[j]) {
-                test = test * arr[j]
-            }
+    var result = [];
+    for (var i = 0; i < arr.length; i++) {
+        var subTotal = 1;
+        for (var j = 0; j < arr.length; j++) {
+            subTotal *= arr[j];
         }
-        temp.push(test)
+        subTotal = subTotal / arr[i];
+        result.push(subTotal);
     }
-    return temp
+    return result;
 }
 
     // TEST CASES

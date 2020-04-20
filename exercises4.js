@@ -4,7 +4,7 @@ function dataHandling2(arr){
     arr.splice(1,1, arr[1] +" Elsharawy");
     arr.splice(2,1, 'Provinsi ' + arr[2]);
     arr.splice(4,1, 'Pria' , 'SMA Internasional Metro');
-    console.log(arr);
+    // console.log(arr);
     var tanggal = arr[3].split('/');
     var bulan = tanggal[1];
     switch(bulan){
@@ -31,7 +31,7 @@ function dataHandling2(arr){
     var joinTanggal = tanggalJoin.join('-')
     console.log(joinTanggal);
 
-    var slice = arr[1].slice(0,15);
+    var slice = arr[1].slice(0,14);
     console.log(slice);
 }
 
